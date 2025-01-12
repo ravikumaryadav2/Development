@@ -1,0 +1,35 @@
+*{
+    font-family: "Courier New";
+}
+h1,h3{
+    color: #b92b27;
+}
+#login{
+   background-color: white;
+}
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+.upvote{
+    color: aqua;
+    background-color: green;
+}
+.answer{
+    background-color: blueviolet;
+}
+nav a {
+    background-color: springgreen;
+}
+/* Descendant selector */
+p a {
+    color: cadetblue;
+    background-color: mediumorchid;
+}
+/*  Adjacent sibling combinator */
+p + h3 {
+text-decoration: underline;
+}
+div > input {
+    background-color: tomato;
+}

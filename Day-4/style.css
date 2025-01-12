@@ -1,0 +1,30 @@
+/* h1{
+    color: aqua;
+    background: #000;
+}
+
+p{
+    color: blueviolet;
+    background-color: aquamarine;
+} */
+/* 
+h2{
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+
+}
+
+p{
+    color: rgb(255, 255, 0);
+    background-color: #000000;
+}
+
+button{
+    color: white;
+    background-color: blue;
+} */
+ h2{
+    text-align: center;
+    border: solid;
+    width: 50%;
+ }
