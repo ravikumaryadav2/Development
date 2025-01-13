@@ -33,3 +33,55 @@ text-decoration: underline;
 div > input {
     background-color: tomato;
 }
+
+
+/* Practice */
+
+
+div.greetDiv .greet {
+    color: green;
+}
+
+.greetDiv p.greet {
+    color: blue;
+}
+
+.greetDiv  .greet {
+    color: red;
+}
+
+button:hover {
+    color: white;
+}
+h3:hover {
+    text-decoration: overline;
+}
+
+button:active {
+    background-color: hotpink;
+}
+p:active {
+    font-weight: bold;
+    background-color: greenyellow;
+}
+
+input[type="radio"]:checked + label {
+    color:red;
+    font-weight: bold;
+}
+
+/* post:nth-of-type(2) { */
+  /* background-color: blanchedalmond; */
+/* } */
+
+p::first-line {
+    color: aqua;
+
+}
+p::selection {
+    background-color: limegreen;
+}
+
+h3 {
+    background-color: gold;
+}
