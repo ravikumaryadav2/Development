@@ -1,0 +1,18 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 255, 0, 0.6);
+    transition: 1s;
+}
+/* #opacity {
+    background-color: #4dff00ff;
+    opacity: 1;
+}
+.click:hover{
+background-color: brown;
+} */
+
+div:hover{
+    background-color: pink;
+    border-radius: 50%;
+}
