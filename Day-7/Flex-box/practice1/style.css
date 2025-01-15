@@ -1,0 +1,77 @@
+#container{
+    height: 400px;
+    width: 400px;
+    margin: 10px auto;
+    background-color: azure;
+    border: 2px solid aquamarine;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    /* flex-shrink: 100px; */
+    align-self: center;
+    flex-grow: 100px;
+}
+#container div {
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    text-align: center;
+    background-color: lightslategrey;
+    /* align-content: space-around; */
+    /* gap: 10px 10px 10px; */
+    border-radius: 20px;
+    justify-content: space-between;
+    /* padding: 10px 10px 10px 10px; */
+    
+}
+#div1{
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+    
+    /* align-content: space-around; */
+}
+#div2{
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+    
+}
+#div3{
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+}
+#div4{
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+}
+#div5{
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+}
+#div6{
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+}
+#div7{
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+}
+#div8{
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+}
+#div9{
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+}

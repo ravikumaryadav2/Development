@@ -1,0 +1,21 @@
+#container{
+    height: 50px;
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto;
+    border-radius: 10px 10px 10px 10px;
+    background-color: aliceblue;
+    border: 1px solid lightskyblue;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: start;
+}
+#container div{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    align-items: center;
+    /* background-color: lightcoral; */
+
+}
