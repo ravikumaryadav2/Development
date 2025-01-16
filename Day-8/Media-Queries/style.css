@@ -1,0 +1,37 @@
+h1{
+    background-color: yellow;
+    border: 2px solid black;
+
+}
+@media (width : 400px ) {
+    h1{
+        background-color: aqua;
+        color: white;
+    }
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rebeccapurple;
+}
+@media (min-width : 400px ) {
+    h1{
+        background-color: green;
+    }
+}
+@media(max-width:200px) {
+    h1{
+        background-color: violet;
+    }
+}
+@media (min-width:200px) and (max-width:300px) {
+    h1{
+        background-color: chartreuse;
+    }
+}
+@media (orientation:lanscape) {
+    h1{
+        background-color: coral;
+        color: darkgoldenrod;
+    }
+}
