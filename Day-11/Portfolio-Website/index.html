@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preload" href="Images/logo.png" as="image">
+    <!-- <link rel="preload" href="Images/NavLogo.jpg" as="image"> -->
 
 </head>
 <body>
@@ -14,7 +14,7 @@
     <div class="container">
         <div class="navbar">
 <div class="logo_container">
-    <img src="j imge.jpg" class="logo" alt="Name logo">
+    <img src="Images/j imge.jpg" class="logo" alt="Name logo">
     <div class="logo-text">ohn Dee</div>
 </div>
 
@@ -26,24 +26,27 @@
         </div>
     </div>
     <div class="hero-section">
-        <div class="faded-text">Ravi Yadav</div>
+        <div class="absolute faded-text">Ravi Yadav</div>
 
         <div class="hero-section-left">
-<div class="hero-section-left-heading">Hi! Ravi Yadav</div>
-<div class="hero-section-left-heading hero-section-left-sub-heading">
+
+<div class="hero-section-left-heading">Hi !</div>
+<div class="hero-section-left-subheading hero-section-left-heading">
     I am a <span class="role"></span>
 </div>
 </div>
-<div class="hero-section-left-description">
+<div class="hero-section-left-desc">
     I am a software developer and here is my porfolio website. Here you'll 
     learn about my journey as a software developer. 
 </div>
 
 
-<button class="btn-pink" id="btn">Hire me</button>
+<button class="hero-section-left-btn" id="btn-top">Hire me</button>
+
 <div class="hero-section-right">
     <div class="absolute icons icon-dots">
-        <img src="dots.png" alt="">
+
+        <img src="Images/dots.png" alt="">
     </div>
     <div class="absolute icons icon-cube">
         <img src="Images/cube.png" alt="">
@@ -51,7 +54,7 @@
     <div class="absolute icons icon-circle">
         <img src="Images/circle.png" alt="">
     </div>
-    <div class="absolute icons icon-zigzak">
+    <div class="absolute icons icon-zigzag">
         <img src="Images/zigzags.png" alt="">
     </div>
     <div class="absolute icons icon-plus">
@@ -60,8 +63,52 @@
     <div class="user-image">
         <img src="Images/UserImage.png" alt="Ravi Yadav">
     </div>
+
+
 </div>
     </div>
+    </div>
+    <!-- Above add extra closing div only -->
+
+    <div class="project-section">
+    <h2 class="page-header">Projects</h2>
+
+   <div class="project-container">
+    <div class="project-card" id="project1">
+        <div class="project-number">01</div>
+        <div class="project-content">
+            <div class="project-skills-container">
+                <img class="project-skill" src="Images/HTML.png" alt="">
+                <img class="project-skill" src="Images/CSS.png" alt="">
+                <img class="project-skill" src="Images/Javascript.svg" alt="">
+                <img class="project-skill" src="Images/Express.png" alt="">
+                <img class="project-skill" src="Images/NextJsCircle.png" alt="">
+                <img class="project-skill" src="Images/Tailwind.png" alt="">
+                <img class="project-skill" src="Images/NodeJs.svg" alt="">
+                <img class="project-skill" src="Images/MongoDB.svg" alt="">
+                <img class="project-skill" src="Images/Redux.svg" alt="">
+                <img class="project-skill" src="Images/Vercel.svg" alt="">
+           
+                <h2 class="project-heading">Tint & Orange</h2>
+                <div class="project-subHeading">It is a car modification comoany which provide you sheets
+                     to protect your car from scratch
+                    </div>
+                    <div class="btn-grp">
+                        <button class="btn-pink btn-project">Read More</button>
+                        <a href="">
+                            <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                        </a>
+                        <a href="">
+                            <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                    </div>
+            </div>
+        </div>
+    </div>
+   </div>
+    </div>
+
+
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
