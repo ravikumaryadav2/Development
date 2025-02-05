@@ -36,11 +36,27 @@
 
 // Loop with Array
 
-let fruits = ["mango", "grapes", "orange", "banana"];
-fruits.push("pineapple")
+// let fruits = ["mango", "grapes", "orange", "banana"];
+// fruits.push("pineapple")
 
-for (let i = 0; i < fruits.length; i++) {
+// for (let i = 0; i < fruits.length; i++) {
 
-    console.log(i, fruits[i]);
+//     console.log(i, fruits[i]);
+    
+// }
+
+// Nested Loops with Nested Array
+
+let heroes = [["ironman", "spiderman","thor"],["superman", "wonder woman", "flash"]];
+
+for (let i = 0; i < heroes.length; i++) {
+   console.log(`list #${i}`);
+
+   for (let j = 0; j < heroes[i].length; j++) {
+   console.log(heroes[i] [j]);
+   
+    
+   }
+   
     
 }

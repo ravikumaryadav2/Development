@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+       <h1>Expense Tracker</h1>
+       <div class="form">
+       <input type="text" id="expense-name" placeholder="Expense Name">
+       <input type="number" id="expense-amount" placeholder="Amount">
+       <!-- <input type="text" id="expense-name" placeholder="Expense Name"> -->
+        <button id="add-expense">Add Expense</button>
+       </div>
+       <div class="expenses">
+         <h2>Expenses List</h2>
+         <ul id="expense-list"></ul>
+         <p>Total: $,<span id="total-amount">0</span></p>
+         <button id="clear-expenses">Clear All</button>
+       </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
