@@ -53,12 +53,57 @@
 // console.log(sum(sum(1, 2), 3));
 
 
-function isAdult(age){
-    if (age >= 18) {
-        return "adult";
-    }else {
-        return "not adult";
-    }
-// console.log("hey buddy");   // AFTER DECLARE RETURN VALUE NO VALUE CAN EXECUTE OR PRINT.WHEN WE DECLARE A RETURN FUNCTION THEN  WE TRY TO DECLARE OR PRINT ANYTHING ,IT DOESNOT PRINT THESE VALUE.
+// let sum = 54; // Global Scope
+//  function calSum(a, b){
+//     let sum = a+b; // Function Scope ----> if wwe compare in specity then function global specity is more than as compare to global scope.
+//     console.log(sum);
+    
+//  }
+//  calSum(1, 2);
+//  console.log(sum);
+ 
+// {
+//     let a = 25;
 
+// }
+// console.log(a);
+
+
+// for (let in = 0; index < array.length; index++) {
+
+    
+// }
+
+// for (let i = 0; i <= 5; i++) {
+//    console.log(i);  // block scope.
+   
+    
+// }
+
+
+// function outerFunc(){
+//     let x = 5;
+//     let y = 6;
+//     function innerFunc(){
+//         console.log(x);
+//         console.log(y);
+        
+        
+//     }
+//     innerFunc();
+// }
+
+// Higher Order Functions.
+
+function multipleGreet(func, n){
+for (let i = 0; i < n; i++) {
+    func();
+    
 }
+}
+let greet = function() {
+    console.log("hello");
+    
+}
+
+multipleGreet(greet, 12);
