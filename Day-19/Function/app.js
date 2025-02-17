@@ -95,15 +95,47 @@
 
 // Higher Order Functions.
 
-function multipleGreet(func, n){
-for (let i = 0; i < n; i++) {
-    func();
+// function multipleGreet(func, n){
+// for (let i = 0; i < n; i++) {
+//     func();
     
-}
-}
-let greet = function() {
-    console.log("hello");
+// }
+// }
+// let greet = function() {
+//     console.log("hello");
     
-}
+// }
 
-multipleGreet(greet, 12);
+// multipleGreet(greet, 12);
+
+// function oddEvenTest(request){
+//  if (request == "odd") {
+//     return function(n){
+//         console.log(!(n%2 == 0));
+        
+//     }
+//  }else if (request == "even") {
+//     return function(n){
+//         console.log(n%2 == 0);
+        
+//     }
+//  }else {
+//     console.log("wrong request");
+    
+//  }
+// }
+
+
+
+const calculator = {
+    
+    add: function(a, b){
+        return a + b;
+    },
+    sub: function (a, b) {
+        return a - b;
+    },
+    mul: function (a, b){
+        return a * b;
+    }
+}
